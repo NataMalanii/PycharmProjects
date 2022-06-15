@@ -37,4 +37,5 @@ def page_skills(skill):
     else:
         return f"Кандидата с такими навыками нет"
 
+
 app.run()
