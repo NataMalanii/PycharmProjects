@@ -52,5 +52,6 @@ def get_candidate_skills(skill: str) -> list:
         if skill.lower() in candidate['skills'].lower().split(', '):
             result.append(candidate)
 
+
     return result
 
